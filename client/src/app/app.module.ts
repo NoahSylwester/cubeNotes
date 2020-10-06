@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CubeDisplayComponent } from './cube-display/cube-display.component';
+import { SplashPageComponent } from './splash-page/splash-page.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CubeDisplayComponent,
+    SplashPageComponent
   ],
   imports: [
     BrowserModule,
